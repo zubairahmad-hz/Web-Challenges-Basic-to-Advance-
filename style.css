@@ -1,0 +1,65 @@
+body{
+    font-family: Arial;
+}
+.first-name, .last-name{
+    border: 1px solid rgb(178, 173, 173);
+    padding: 8px;
+    border-radius: 7px;
+    width: 100px;
+}
+.first-name::placeholder{
+    padding-left: 5px;
+}
+.last-name::placeholder{
+    padding-left: 5px;
+}
+.email{
+    border: 1px solid rgb(178, 173, 173);
+    padding: 8px;
+    border-radius: 7px;
+    width: 222px;
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+.sign-up-btn{
+    background-color: rgba(6, 83, 250, 0.959);
+    color: white;
+    /* width: 222px; */
+    border: none;
+    padding: 8px 97px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+/* Below codes are for designing the uber request part */
+.uber-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.uber-loc, .uber-des{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    width: 300px;
+    padding: 10px 14px;
+    font-weight:600;
+    display: block;
+    margin-bottom:8px ;
+}
+.req-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.sch-btn{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
